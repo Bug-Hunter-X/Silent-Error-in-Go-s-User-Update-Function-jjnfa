@@ -1,0 +1,3 @@
+# Silent Error in Go User Update Function
+
+This repository demonstrates a common error in Go: silently ignoring errors returned from functions. The `bug.go` file contains a function that checks for a zero User ID but does not handle potential errors during the database update. The solution, found in `bugSolution.go`, addresses this by explicitly checking and handling errors, providing more robust error reporting.
